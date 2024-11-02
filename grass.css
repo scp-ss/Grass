@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(201, 201, 201);
+}
+
+h1 {
+    color: black;
+    font-family: monospace;
+    font-weight: 1000;
+    text-align: center;
+}
+
+#main {
+    font-family: arial;
+}
+#main-main {
+    font-family: monospace;
+    font-weight: 1000;
+    color: rgb(77, 77, 77);
+    font-size: 30px;
+    text-align:center;
+}
+#dotdotmain {
+    text-align: justify;
+    border: 1px solid black;
+    margin: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    background-color: rgb(208, 208, 208);
+}
+#main-p {
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: arial;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 40px;
+}
+#main-main-main {
+    font-weight: 100px;
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+    align-items: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #d3d3d3;
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #d2d2d2;
+    border-radius: 10px;
+    border: 3px solid #a2a2a2;
+}
+  
+
+body.hidden-scrollbar::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+#image-container { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+} 
+#image-container img { 
+    width: calc(25% - 10px); 
+    margin: 5px; height: auto; 
+    border-radius: 10px; 
+}
